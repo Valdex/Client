@@ -44,7 +44,7 @@ let options = {
     borderColour: "FFA500",
     sectorColour: "1A1A1A",
     hideFood: false,
-    ERTP: true,
+    ERTP: false,
 };
 
 let fps = {
@@ -121,12 +121,7 @@ function updateWindowFunctions() {
 
             case 32:
                 // Space (Split)
-				sendUint8(17);
-                break;
-				
-		    case 33:
-                // Space (Split)
-				sendUint8(68);
+                sendUint8(17);
                 break;
 
             case 87:
@@ -242,7 +237,7 @@ function updateWindowFunctions() {
     // Handle options
 
     $("#chat").on("blur", function () {
-        isTyping = true;
+        isTyping = false;
     });
 
     $("#chat").on("focus", function () {
