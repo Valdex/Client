@@ -43,13 +43,13 @@
 
 #serverPanel {
     width: 300px;
-    height: 500px;
+    height: 450px;
     background-color: rgb(101, 169, 191);
     margin: 10px;
     padding: 5px 15px 5px 15px;
     position: absolute;
     top: 46%;
-    left: 100%;
+    left: 140%;
     margin-right: -70%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
