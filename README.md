@@ -1,2 +1,2 @@
 # 
-Home page <a href ="http://blobgame.github.io">blobgame.github.io</a>
+Home page <a href ="http://valdex.github.io">valdex.github.io</a>
